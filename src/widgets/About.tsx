@@ -32,6 +32,9 @@ const About = () => {
         </p>
       </div>
       <div className=" px-16 py-2">
+        <p className="max-w-2xl italic text-sm sm:text-base md:text-xl lg:text-xl mt-4 sm:mt-6 md:mt-8 text-shadow-cyan-900 leading-relaxed">
+          Hover me 👇
+        </p>
         <PixelatedCanvasDemo />
       </div>
     </div>
