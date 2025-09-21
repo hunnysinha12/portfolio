@@ -4,7 +4,7 @@ import { Tabs } from "@/components/ui/tabs";
 
 import Image from "next/image";
 import Ochi from "@/../public/image.png";
-import Dashboard from "@/../public/dashboard.png";
+import GTA from "@/../public/GTA-VI.png";
 import Redux from "@/../public/Redux.png";
 import ReactAnimation from "@/../public/React Animation.png";
 
@@ -12,7 +12,7 @@ export function AnimatedTabs() {
   const tabs = [
     {
       title: "Ochi",
-      value: "content",
+      value: "Ochi",
       content: (
         <a href="https://ochi-two-green.vercel.app/">
           <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 flex gap-4 flex-col text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
@@ -23,20 +23,20 @@ export function AnimatedTabs() {
       ),
     },
     {
-      title: "Invoice Generator",
-      value: "services",
+      title: "GTA VI",
+      value: "GTA VI",
       content: (
-        <a href="https://crud-dashboard-omega.vercel.app/dashboard">
+        <a href="https://gta-vi-seven-vert.vercel.app/">
           <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 flex gap-4 flex-col text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-            <p>Invoice Generator</p>
-            <Image src={Dashboard} alt="ochi" />
+            <p>GTA VI Animating Website usign GSAP</p>
+            <Image src={GTA} alt="ochi" />
           </div>
         </a>
       ),
     },
     {
       title: "Working with Redux",
-      value: "playground",
+      value: "Working with Redux",
       content: (
         <a href="https://working-with-redux.vercel.app/">
           {" "}
@@ -50,7 +50,7 @@ export function AnimatedTabs() {
 
     {
       title: "React Animated Website",
-      value: "random",
+      value: "React Animated Website",
       content: (
         <a href="https://react-animated-website-xi.vercel.app/">
           <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 flex gap-4 flex-col text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
