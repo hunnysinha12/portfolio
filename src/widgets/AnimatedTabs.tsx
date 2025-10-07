@@ -36,19 +36,19 @@ export function AnimatedTabs() {
         </a>
       ),
     },
-    {
-      title: "Working with Redux",
-      value: "Working with Redux",
-      content: (
-        <a href="https://working-with-redux.vercel.app/">
-          {" "}
-          <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 flex gap-4 flex-col text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-            <p>Working with Redux Took Kit</p>
-            <Image src={Redux} alt="ochi" />
-          </div>
-        </a>
-      ),
-    },
+    // {
+    //   title: "Working with Redux",
+    //   value: "Working with Redux",
+    //   content: (
+    //     <a href="https://working-with-redux.vercel.app/">
+    //       {" "}
+    //       <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 flex gap-4 flex-col text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+    //         <p>Working with Redux Took Kit</p>
+    //         <Image src={Redux} alt="ochi" />
+    //       </div>
+    //     </a>
+    //   ),
+    // },
 
     {
       title: "Avatar Generator",
@@ -56,7 +56,7 @@ export function AnimatedTabs() {
       content: (
         <a href="https://avatar-image-generator.vercel.app/">
           <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 flex gap-4 flex-col text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-            <p>React Animated Website</p>
+            <p>Avatar Generator</p>
             <Image src={ImgGen} alt="ochi" />
           </div>
         </a>
@@ -68,24 +68,24 @@ export function AnimatedTabs() {
       content: (
         <a href="https://unlimited-web-gradients-generator-j.vercel.app/">
           <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 flex gap-4 flex-col text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-            <p>React Animated Website</p>
+            <p>Unlimited Gradient Generator</p>
             <Image src={GradientGen} alt="ochi" />
           </div>
         </a>
       ),
     },
-    {
-      title: "React Animated Website",
-      value: "React Animated Website",
-      content: (
-        <a href="https://react-animated-website-xi.vercel.app/">
-          <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 flex gap-4 flex-col text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-            <p>React Animated Website</p>
-            <Image src={ReactAnimation} alt="ochi" />
-          </div>
-        </a>
-      ),
-    },
+    // {
+    //   title: "React Animated Website",
+    //   value: "React Animated Website",
+    //   content: (
+    //     <a href="https://react-animated-website-xi.vercel.app/">
+    //       <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 flex gap-4 flex-col text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+    //         <p>React Animated Website</p>
+    //         <Image src={ReactAnimation} alt="ochi" />
+    //       </div>
+    //     </a>
+    //   ),
+    // },
   ];
 
   return (
