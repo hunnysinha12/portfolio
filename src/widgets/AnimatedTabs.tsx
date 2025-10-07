@@ -7,6 +7,8 @@ import Ochi from "@/../public/image.png";
 import GTA from "@/../public/GTA-VI.png";
 import Redux from "@/../public/Redux.png";
 import ReactAnimation from "@/../public/React Animation.png";
+import ImgGen from "@/../public/Image-Generator.png";
+import GradientGen from "@/../public/Unlimited Gradient Color Generator.png";
 
 export function AnimatedTabs() {
   const tabs = [
@@ -48,6 +50,30 @@ export function AnimatedTabs() {
       ),
     },
 
+    {
+      title: "Avatar Generator",
+      value: "Avatar Generator",
+      content: (
+        <a href="https://avatar-image-generator.vercel.app/">
+          <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 flex gap-4 flex-col text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+            <p>React Animated Website</p>
+            <Image src={ImgGen} alt="ochi" />
+          </div>
+        </a>
+      ),
+    },
+    {
+      title: "Unlimited Gradient Generator",
+      value: "Unlimited Gradient Generator",
+      content: (
+        <a href="https://unlimited-web-gradients-generator-j.vercel.app/">
+          <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 flex gap-4 flex-col text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+            <p>React Animated Website</p>
+            <Image src={GradientGen} alt="ochi" />
+          </div>
+        </a>
+      ),
+    },
     {
       title: "React Animated Website",
       value: "React Animated Website",
